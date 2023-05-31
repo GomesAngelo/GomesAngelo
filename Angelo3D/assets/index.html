@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Fotografo</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>Fotografo</h1>
+        <h1 class="nome">Ângelo Gomes</h1>
+        <nav class="nav">
+            <button>Home</button>
+            <button>Portfólio</button>
+            <button onclick="modalup" id="contato">Contato</button>
+            <button>Casamentos</button>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="box1">
+            <section>
+                <img class="foto1" src="./img/Foto1.png" alt="">
+                <img class="C1" id="coracao" src="./icones/Coracao.svg" alt="">
+            </section>
+            <section><img src="./img/Foto3.png" alt="">
+                <img class="C2" id="coracao" src="./icones/Coracao.svg" alt="">
+                <img src="./img/Foto4.png" alt="">
+                <img class="C3" id="coracao" src="./icones/Coracao.svg" alt="">
+            </section>
+        </div>
+        <div class="box2">
+            <img src="./img/Foto2.png" alt=""></div>
+            <img class="C4" id="coracao" src="./icones/Coracao.svg" alt="">
+    </div>
+    <footer>
+        <p>Desenvolvido por <br> Carlos Wilton e Jonathas Maciel</p>
+        <article class="footerIcon">
+            <img src="./icones/Facebook.svg" alt="">
+            <img src="./icones/Instagram.svg" alt="">
+            <img src="./icones/Twitter.svg" alt="">
+            <img src="./icones/Twitch.svg" alt="">
+        </article>
+    </footer>
+    <div id="modal">
+        <section class="modal-content">
+            <p>Formulário de contato</p>
+            <input type="text" placeholder="Digite seu nome">
+            <input type="email" placeholder="Digite seu email">
+            <input type="number" placeholder="Digite seu número de contato">
+            <textarea placeholder="Deixe uma mensagem..." name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+            <article><button id="cancelar">Cancelar</button>
+                <button class="enviar">Enviar</button></article>
+        </section>
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

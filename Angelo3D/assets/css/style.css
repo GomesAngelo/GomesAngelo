@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+.nome{
+    padding: 25px;
+    font-weight: 300;
+}
+.nav{
+    display: flex;
+    gap: 50px;
+    border: 1px solid;
+    padding: 15px;
+}
+.nav button{
+    border: none;
+    background-color: #fff;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 5px;
+}
+.nav button:hover{
+    background-color: #f3f3f3;
+    color: #000;
+    border-radius: 8px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    background-color: #f3f3f3;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    padding: 5px;
+}
+.box2{
+    padding: 5px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    font-family: sans-serif;
+}
+.footerIcon{
+    display: flex;
+    gap: 25px;
+    padding: 20px;
+}
+#modal{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+    height: 70vh;
+    position: absolute;
+}
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    padding: 50px;
+    font-family: sans-serif;
+    gap: 10px;
+}
+.modal-content article{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+#cancelar{
+    padding: 10px;
+    border: none;
+    background-color:#fff;
+    opacity: 75%;
+}
+#coracao{
+    position: absolute;
+}
